@@ -14,7 +14,7 @@ Software & Hardware:
  -  Or stm32f103 smart v2.0, [references](https://shopee.com.my/STM32F103C8T6-ARM-STM32-Minimum-System-Development-Board-STM32-Core-Board-i.119159849.1948146478)
  - Or NUCLEO-F103RB, [references](https://www.st.com/en/evaluation-tools/nucleo-f103rb.html)
 
-Circuit Diagram on my circuit:
+Circuit Diagram:
 ---------------------------------
 This circuit diagram is using two STM32F103C8T6 MCU, STM32 Blue-Pill as ST-link,  STM32 Black-Pill as target. For more detail can refer to my "STM32F103c8t6 as ST linker with LED Blinky program" project.
 
@@ -66,7 +66,7 @@ This procedure is step by step to program a STM32 Blue-Pill or STM32 Black-Pill 
 11. under "target" select "Program".
 ![program](https://trello-attachments.s3.amazonaws.com/5cee4774d8fcdd32c2d51358/5d87175e696aed11f95e01e1/562d9020c8f54c1ad122de14dc4c0313/image.png)
 
-12. Click "Browse" and select the downloaded bin file then click Start.
+12. Click "Browse" and select the downloaded bin file then click Start Or just download it from my github under document folder.
 ![bin](https://trello-attachments.s3.amazonaws.com/5cee4774d8fcdd32c2d51358/5d87175e696aed11f95e01e1/51c20f576ca286251f03c5263c67ea33/image.png)
 
 13. Now observe the response on your MCU, a LED will start blinking. the program already flash into the MCU memory, so you can disconnect the software and power off the MCU then power up again, You will see the LED blink again.   
